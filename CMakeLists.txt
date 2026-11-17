@@ -3,4 +3,6 @@ project(rummikub_engine)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(rummikub_engine main.cpp)
+add_executable(rummikub_engine main.cpp
+        src/core/headers/tile.h
+)
